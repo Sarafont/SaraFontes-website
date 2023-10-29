@@ -1,0 +1,179 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.cabecalho {
+  align-items: center;
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(217, 197, 170);
+  color: black;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.cabecalho-foto {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+.foto-cv {
+  border-radius: 50%;
+  width: 280px;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.info-programacao{
+  margin-top: 50px;
+}
+
+.info-programacao-tabelas {
+  display: flex;
+  justify-content: center;
+}
+
+.info-programacao-esq,
+.info-programacao-dir {
+  flex: 0 0 10%;
+  max-width: 50%;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.experiencia{
+  margin-top: 50px;
+}
+
+.inditex {
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.onde-seguir {
+  text-align: center;
+  font-size: 19px;
+}
+
+section {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.sobre-mim {
+  text-align: center;
+}
+
+.info-buttons {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: 50px;
+}
+
+.buttons {
+  margin-left: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(217, 197, 170);
+  font-size: 23px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.redes-sociais {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.imagem-redes-sociais {
+  width: 40px;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.div-esquerda,
+.div-direita {
+    width: 48%;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.div-esquerda {
+    float: left; /* Alinha a div esquerda à esquerda */
+}
+
+.div-direita {
+    float: right; /* Alinha a div direita à direita */
+}
+
+.js-experiencia,
+.js-linguas {
+  text-align: center;
+  display: flex;
+}
+
+
+.js-experiencia,
+.js-linguas {
+  display: flex;
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  background-color: rgb(217, 197, 170);
+  border-radius: 15px;
+  border: none;
+}
+
+/*Páginas Extra*/
+.voltar {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: 50px;
+}
+
+.voltar-pagina-inicial {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(217, 197, 170);
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
